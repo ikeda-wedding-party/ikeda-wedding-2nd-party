@@ -1,13 +1,148 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ja">
-<head>
-<meta charset="UTF-8">
-<title>昔話</title>
-</head>
-<body>
-<h1>桃太郎</h1>
-<p>むかしむかし、あるところにおじいさんとおばあさんが住んでいました。おじいさんは山に柴刈りに、おばあさんは川に洗濯に行きました。</p>
-<p>おばあさんが洗濯していると、川上からどんぶらこどんぶらこと、大きな桃が流れてきました。</p>
-<a href="http://codecamp.jp/">CodeCamp</a>
-</body>
-</html>
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-4925837-6"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-4925837-6');
+    </script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="dist/octicons/octicons.css">
+    <link rel="stylesheet" href="dist/marukaku.css">
+    <title>ikeda-wedding-party</title>
+  </head>
+  <body>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <style>
+      .jumbotron { background: url(./wedding.jpg) center no-repeat; background-size: cover; color: #ffffff; }
+      .jumbotron a { color: #ffffff; }
+      h2 {
+          background-image: url(wedding_emoji.png);
+          background-size: auto 100%;
+          background-repeat: no-repeat;
+          padding: 0 0 0 40px;
+      }
+      .references { font-size: small; }
+      #publications li { font-size: small; }
+      .blog-post { margin-bottom: 50px; }
+      .blog-post h2 { margin-top: 35px; }
+
+      .table { font-size: small; }
+      .table-colored td { border-color: #b284c1; }
+      .table-colored thead th { border-color: #b284c1; }
+
+      pre { font-size: x-small; }
+
+      .card-body { font-size: small; }
+    </style>
+
+    <div class="jumbotron">
+      <div class="container">
+        <h1 class="display-3">Ikeda's Wedding Party Guide.</h1>
+        <p>
+          This time Congratulations on your marriage.<br>
+          Tonight,men and women enjoying the feast more and more...
+        </p>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-2 d-none d-md-block">
+          <div class="card bg-white sidemenu-sticky">
+            <div class="card-header">Contents</div>
+            <nav class="nav flex-column">
+              <a class="nav-link" href="#about">Top</a>
+              <a class="nav-link" href="#what">What is this</a>
+              <a class="nav-link" href="#date">Date</a>
+              <a class="nav-link" href="#place">Place</a>
+              <a class="nav-link" href="#access">Access</a>
+            </nav>
+          </div>
+        </div>
+
+        <main class="col-md-10 ml-sm-auto col-lg-10 pt-3 px-4" role="main">
+
+          <!-- ================= -->
+          <!--    About          -->
+          <!-- ================= -->
+          <div id="about" class="blog-post">
+            <h1 class="blog-post-title">Ikeda's family</h1>
+            <p>
+              <img src="./ikeda_family.jpg" alt="写真" align="right", width="200px" height="auto" border-radius="10px">
+              &#x1f6b9; Ken:
+              <br>
+              　　通信技術のプロ<sup><a href="#bunken">1</a></sup>
+              <br>
+              &#x1f6ba; Mai:
+              <br>
+              　　ムッチャいいやつ
+              <br>
+              &#x1f6bc; Miharu:
+              <br>
+              　　ムッチャ可愛いやつ
+              <dl>
+                <dt class="references">References</dt>
+                <dl>
+                  <ol class="references">
+                    <li id="bunken">
+                      池田　賢・表　英毅・藤井輝也・阪口　啓（東工大）
+                      <a href="https://www.gakkai-web.net/gakkai/ieice/G_2018/Settings/ab/b_01_006.html"><img class="octicons" src="dist/octicons/svg/info.svg"> ads</a>
+                      <br clear="right">
+                    </li>
+                  </ol>
+                </dl>
+              </dl>
+            </p>
+          </div>
+
+          <!-- ================= -->
+          <!--   What is this    -->
+          <!-- ================= -->
+          <div id="what" class="blog-post">
+            <h2 class="blog-post-title"> What is this</h2>
+            <ul>
+              <p>賢と麻衣の結婚式の 2 次会のための特設 web ページです。</p>
+            </ul>
+          </div>
+
+          <!-- ================= -->
+          <!--        Date       -->
+          <!-- ================= -->
+          <div id="date" class="blog-post">
+            <h2 class="blog-post-title"> Date</h2>
+            <ul>
+              <p>2018 / 12 / 27 (Wed.)
+            </ul>
+          </div>
+
+          <!-- ================= -->
+          <!--        Place      -->
+          <!-- ================= -->
+          <div id="place" class="blog-post">
+            <h2 class="blog-post-title"> Place</h2>
+            <ul>
+              <p>The Life byMarcheBATON 柏
+                <br>
+                <a href="https://life-bybaton.owst.jp/" target="_blank">Webページ</a></p>
+            </ul>
+          </div>
+
+          <!-- ================= -->
+          <!--        Access     -->
+          <!-- ================= -->
+          <div id="access" class="blog-post">
+            <h2 class="blog-post-title"> Access</h2>
+            <ul>
+              <img src="access.png">
+            </ul>
+          </div>
