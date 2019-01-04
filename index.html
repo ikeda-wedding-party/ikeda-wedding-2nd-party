@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="ja">
+
   <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-4925837-6"></script>
@@ -7,29 +8,43 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
       gtag('config', 'UA-4925837-6');
     </script>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="dist/octicons/octicons.css">
-    <link rel="stylesheet" href="dist/marukaku.css">
-    <title>ikeda-wedding-party</title>
-  </head>
-  <body>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="./css/octicons.css">
+    <link rel="stylesheet" type="text/css" href="./css/marukaku.css">
+    <link rel="stylesheet" type="text/css" href="./css/glnavi.css">
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous">
+    </script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous">
+    </script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous">
+    </script>
     <style>
-      .jumbotron { background: url(./wedding.jpg) center no-repeat; background-size: cover; color: #ffffff; }
-      .jumbotron a { color: #ffffff; }
-      h2 {
-          background-image: url(wedding_emoji.png);
-          background-size: auto 100%;
-          background-repeat: no-repeat;
-          padding: 0 0 0 40px;
+      .jumbotron {
+      background: url(./img/wedding.jpg)
+      center no-repeat;
+      background-size: cover; color: #ffffff;
+      }
+
+      .h2 {
+      background-image: url(./img/wedding_emoji.png);
+      background-size: auto 100%;
+      background-repeat: no-repeat;
+      padding: 0 0 0 40px;
       }
       .references { font-size: small; }
       #publications li { font-size: small; }
@@ -44,6 +59,10 @@
 
       .card-body { font-size: small; }
     </style>
+    <title>ikeda-wedding-party</title>
+  </head>
+
+  <body>
 
     <div class="jumbotron">
       <div class="container">
@@ -55,20 +74,15 @@
       </div>
     </div>
 
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-2 d-none d-md-block">
-          <div class="card bg-white sidemenu-sticky">
-            <div class="card-header">Contents</div>
-            <nav class="nav flex-column">
-              <a class="nav-link" href="#about">Top</a>
-              <a class="nav-link" href="#what">What is this</a>
-              <a class="nav-link" href="#date">Date</a>
-              <a class="nav-link" href="#place">Place</a>
-              <a class="nav-link" href="#access">Access</a>
-            </nav>
-          </div>
-        </div>
+      <div class="glnavi">
+        <ul>
+          <li><a href="./profile.html">Profile</a></li>
+          <li><a href="./parents-comments.html">両親コメント</a></li>
+          <li><a href="./friends-comments.html">友人コメント</a></li>
+          <li><a href="./q-and-a.html">Q&A</a></li>
+          <li><a href="./ikeda-house.html">IKEDA HOUSE</a></li>
+        </ul>
+      </div>
 
         <main class="col-md-10 ml-sm-auto col-lg-10 pt-3 px-4" role="main">
 
@@ -78,7 +92,7 @@
           <div id="about" class="blog-post">
             <h1 class="blog-post-title">Ikeda's family</h1>
             <p>
-              <img src="./ikeda_family.jpg" alt="写真" align="right", width="200px" height="auto" border-radius="10px">
+              <img src="./img/ikeda_family.jpg" alt="写真" align="right", width="200px" height="auto" border-radius="10px">
               &#x1f6b9; Ken:
               <br>
               　　通信技術のプロ<sup><a href="#bunken">1</a></sup>
@@ -96,7 +110,7 @@
                   <ol class="references">
                     <li id="bunken">
                       池田　賢・表　英毅・藤井輝也・阪口　啓（東工大）
-                      <a href="https://www.gakkai-web.net/gakkai/ieice/G_2018/Settings/ab/b_01_006.html"><img class="octicons" src="dist/octicons/svg/info.svg"> ads</a>
+                      <a href="https://www.gakkai-web.net/gakkai/ieice/G_2018/Settings/ab/b_01_006.html"><img class="octicons" src="./img/info.svg"> ads</a>
                       <br clear="right">
                     </li>
                   </ol>
@@ -143,6 +157,6 @@
           <div id="access" class="blog-post">
             <h2 class="blog-post-title"> Access</h2>
             <ul>
-              <img src="access.png">
+              <img src="./img/access.png">
             </ul>
           </div>
