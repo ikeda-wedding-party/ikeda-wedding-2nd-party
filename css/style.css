@@ -132,28 +132,6 @@ nav li.active a{
 	text-shadow:-1px -1px 1px #CC837C,1px 1px 1px #FFF;
 }
 
-/*	パンくず
---------------------*/
-#pan{
-	padding:.5em;
-	overflow:hidden;
-	border-bottom:solid 1px #E6D9D9;
-	font-weight:bold;
-	text-shadow:0 0 1px #CCC;
-}
-
-#pan li{
-	float:left;
-}
-
-#pan li:nth-child(even){
-	margin:0 5px;
-}
-
-#pan li a{
-	text-decoration:underline;
-}
-
 
 /*	セクションボーダー
 --------------------*/
@@ -291,38 +269,16 @@ footer a{
 /*	TOP画像
 --------------------*/
 .top_img{
-	padding:10px 0;
+/*	padding:10px 0;*/
 	overflow:hidden;
 	border-top:solid 1px #FFF;
 	border-bottom:solid 1px #E6D9D9;
 }
 
 .top_img img{
-	max-width:318px;
+	max-width:400px;
 	height:auto;
 	border:solid 1px #E0E4B4;
-}
-
-/* ニュース
---------------------*/
-#news{
-	padding:10px 0;
-	border-top:solid 1px #FFF;
-	border-bottom:solid 1px #E6D9D9;
-}
-
-#news li{
-	padding:.5em;
-	overflow:hidden;
-	white-space:nowrap;
-	text-overflow:ellipsis;
-	-o-text-overflow:ellipsis;
-}
-
-#news li span{
-	font-weight:bold;
-	letter-spacing:-1px;
-	margin-right:.5em;
 }
 
 
