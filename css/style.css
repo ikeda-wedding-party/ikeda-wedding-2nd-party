@@ -313,13 +313,13 @@ footer a{
 	background:-o-linear-gradient(top, #B6B89C 0%, #D5D7C8 49%, #ABAE91 50%, #A5A88B 100%);
 	background:-ms-linear-gradient(top, #FFF 0%, #D5D7C8 49%, #ABAE91 50%, #A5A88B 100%);
 	background:linear-gradient(top, #B6B89C 0%, #D5D7C8 49%, #ABAE91 50%, #A5A88B 100%);
-	width:25%;
+	width:100%;
 	padding:3px;
 	display:block;
 	color:#FFF;
-	font-size:36px;
+	font-size:20px;
 	letter-spacing:-2px;
-	float:left;
+	float:center;
 }
 
 .cat_list_right{
@@ -555,4 +555,3 @@ p.free_eyecatch{
 	text-align:center;
 	text-shadow:1px 1px 0 #8F9851,-1px -1px 0 #FFFFFF;
 }
-
