@@ -1,162 +1,227 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=320, user-scalable=0, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+<meta name="keywords" content="キーワード1,キーワード2,キーワード3">
+<meta name="description" content="サイト全体の説明文を入力してください。">
+<title>インデックスです。タイトルを入力してください</title>
+<link rel="stylesheet" type="text/css" href="./css/style.css" media="screen">
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript" src="js/jquery.biggerlink.js"></script>
+<script type="text/javascript">
+<!--
+$(function(){
+	$("ul li").biggerlink();
+});
+-->
+</script>
+<!-- ▼ファビコン設置箇所▼
+※ファビコンを使用する際はコメントアウトを消してください。-->
+<!-- /<link rel="shortcut icon" href="icon URL.ico"> -->
+<!-- ▲ファビコン設置箇所▲ -->
+</head>
+<body>
 
-  <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-4925837-6"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'UA-4925837-6');
-    </script>
+<!-- ヘッダここから -->
+<header>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="./css/octicons.css">
-    <link rel="stylesheet" type="text/css" href="./css/marukaku.css">
-    <link rel="stylesheet" type="text/css" href="./css/glnavi.css">
+	<h1>サイト名が入ります</h1>
 
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous">
-    </script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous">
-    </script>
-    <script
-      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous">
-    </script>
-    <style>
-      .jumbotron {
-      background: url(./img/wedding.jpg)
-      center no-repeat;
-      background-size: cover; color: #ffffff;
-      }
+</header>
+<!-- /ヘッダここまで -->
 
-      .h2 {
-      background-image: url(./img/wedding_emoji.png);
-      background-size: auto 100%;
-      background-repeat: no-repeat;
-      padding: 0 0 0 40px;
-      }
-      .references { font-size: small; }
-      #publications li { font-size: small; }
-      .blog-post { margin-bottom: 50px; }
-      .blog-post h2 { margin-top: 35px; }
 
-      .table { font-size: small; }
-      .table-colored td { border-color: #b284c1; }
-      .table-colored thead th { border-color: #b284c1; }
+<!-- メニューここから -->
+<div id="menu">
+<nav>
+<ul>
+	<li><a href="about.html">ABOUT</a></li>
+	<li><a href="free.html">FREE</a></li>
+	<li><a href="free.html">FREE</a></li>
+	<li><a href="mailto:メールアドレス＠">CONTACT</a></li>
+</ul>
+</nav>
+</div>
+<!-- /メニューここまで -->
 
-      pre { font-size: x-small; }
 
-      .card-body { font-size: small; }
-    </style>
-    <title>ikeda-wedding-party</title>
-  </head>
+<!-- パンくずここから -->
+<ul id="pan">
+	<li>TOP</li>
+</ul>
+<!-- /パンくずここまで -->
 
-  <body>
 
-    <div class="jumbotron">
-      <div class="container">
-        <h1 class="display-3">Ikeda's Wedding Party Guide.</h1>
-        <p>
-          This time Congratulations on your marriage.<br>
-          Tonight,men and women enjoying the feast more and more...
-        </p>
-      </div>
-    </div>
+<!-- TOP画像ここから -->
+<div class="top_img">
+<img src="img/sample_img.jpg" alt="sample：画像代替">
+</div>
+<!-- /TOP画像ここまで -->
 
-      <div class="glnavi">
-        <ul>
-          <li><a href="./profile.html">Profile</a></li>
-          <li><a href="./parents-comments.html">両親コメント</a></li>
-          <li><a href="./friends-comments.html">友人コメント</a></li>
-          <li><a href="./q-and-a.html">Q&A</a></li>
-          <li><a href="./ikeda-house.html">IKEDA HOUSE</a></li>
-        </ul>
-      </div>
 
-        <main class="col-md-10 ml-sm-auto col-lg-10 pt-3 px-4" role="main">
+<!-- ニュースここから -->
+<ul id="news">
+	<li><span>00.00.00</span><a href="">新着情報を掲載できます。長すぎる分は後半「…」になります。</a></li>
+	<li><span>00.00.00</span><a href="">お知らせを掲載できます。</a></li>
+	<li><span>00.00.00</span><a href="">Newsを掲載できます。</a></li>
+	<li><span>00.00.00</span><a href="">更新情報を掲載できます。</a></li>
+</ul>
+<!-- /ニュースここまで -->
 
-          <!-- ================= -->
-          <!--    About          -->
-          <!-- ================= -->
-          <div id="about" class="blog-post">
-            <h1 class="blog-post-title">Ikeda's family</h1>
-            <p>
-              <img src="./img/ikeda_family.jpg" alt="写真" align="right", width="200px" height="auto" border-radius="10px">
-              &#x1f6b9; Ken:
-              <br>
-              　　通信技術のプロ<sup><a href="#bunken">1</a></sup>
-              <br>
-              &#x1f6ba; Mai:
-              <br>
-              　　ムッチャいいやつ
-              <br>
-              &#x1f6bc; Miharu:
-              <br>
-              　　ムッチャ可愛いやつ
-              <dl>
-                <dt class="references">References</dt>
-                <dl>
-                  <ol class="references">
-                    <li id="bunken">
-                      池田　賢・表　英毅・藤井輝也・阪口　啓（東工大）
-                      <a href="https://www.gakkai-web.net/gakkai/ieice/G_2018/Settings/ab/b_01_006.html"><img class="octicons" src="./img/info.svg"> ads</a>
-                      <br clear="right">
-                    </li>
-                  </ol>
-                </dl>
-              </dl>
-            </p>
-          </div>
 
-          <!-- ================= -->
-          <!--   What is this    -->
-          <!-- ================= -->
-          <div id="what" class="blog-post">
-            <h2 class="blog-post-title"> What is this</h2>
-            <ul>
-              <p>賢と麻衣の結婚式の 2 次会のための特設 web ページです。</p>
-            </ul>
-          </div>
+<!-- 広告ここから -->
+<section>
+	<a href="URLを入れてください。" class="ad corner">
+	<!-- 画像 -->
+		<img src="img/dummy_banner.gif" alt="スマートフォン用広告バナー">
 
-          <!-- ================= -->
-          <!--        Date       -->
-          <!-- ================= -->
-          <div id="date" class="blog-post">
-            <h2 class="blog-post-title"> Date</h2>
-            <ul>
-              <p>2018 / 12 / 27 (Wed.)
-            </ul>
-          </div>
+	<!-- テキスト -->
+	<!-- 
+	<span>
+	テキスト広告や文章などが入ります。<br>
+	角丸にしたい場合は「a」タグのクラス「ad」の後ろにスペースを明けて
+	「corner」を追加してください。
+	テキストの際は「span」にも追加してください。
+	</span>
+	 -->
+	</a>
+</section>
+<!-- /広告ここまで -->
 
-          <!-- ================= -->
-          <!--        Place      -->
-          <!-- ================= -->
-          <div id="place" class="blog-post">
-            <h2 class="blog-post-title"> Place</h2>
-            <ul>
-              <p>The Life byMarcheBATON 柏
-                <br>
-                <a href="https://life-bybaton.owst.jp/" target="_blank">Webページ</a></p>
-            </ul>
-          </div>
 
-          <!-- ================= -->
-          <!--        Access     -->
-          <!-- ================= -->
-          <div id="access" class="blog-post">
-            <h2 class="blog-post-title"> Access</h2>
-            <ul>
-              <img src="./img/access.png">
-            </ul>
-          </div>
+<!-- カテゴリリストここから -->
+<section>
+<ul class="cate_list">
+
+
+	<!-- カテゴリ繰り返しここから -->
+	<li>
+		<a href="cate.html"  class="corner">
+		<span class="icon" style="padding:27px 3px;">NO.1</span>
+		<div class="cat_list_right">
+		<small>時間やカテゴリやナンバーなど、補足などをいれますが、こちら側のテキストが長くなったら、2行前のスタイルの"padding:auto 3px"の"auto"の部分を修正してください。)</small>
+		<h3>カテゴリー名（詳細）</h3>
+		</div>
+		</a>
+	</li>
+	<!-- /カテゴリ繰り返しここまで -->
+
+
+	<!-- カテゴリ繰り返しここから -->
+	<li>
+		<a href="cate.html" class="corner">
+		<span class="icon" style="padding:.3em 3px;">NO.2</span>
+		<div class="cat_list_right">
+		<small>時間やカテゴリやナンバーなど、補足</small>
+		<h3>カテゴリー名（詳細）カテゴリー名（詳細）</h3>
+		</div>
+		</a>
+	</li>
+	<!-- /カテゴリ繰り返しここまで -->
+
+
+	<!-- カテゴリ繰り返しここから -->
+	<li>
+		<a href="cate.html" class="corner">
+		<span class="icon" style="padding:auto 3px;">NO.3</span>
+		<div class="cat_list_right">
+		<small>時間やカテゴリやナンバーなど、補足</small>
+		<h3>カテゴリー名（詳細）</h3>
+		</div>
+		</a>
+	</li>
+	<!-- /カテゴリ繰り返しここまで -->
+
+
+	<!-- カテゴリ繰り返しここから -->
+	<li>
+		<a href="cate.html" class="corner">
+		<span class="icon" style="padding:auto 3px;">NO.4</span>
+		<div class="cat_list_right">
+		<small>時間やカテゴリやナンバーなど、補足</small>
+		<h3>カテゴリー名（詳細）</h3>
+		</div>
+		</a>
+	</li>
+	<!-- /カテゴリ繰り返しここまで -->
+
+
+	<!-- カテゴリ繰り返しここから -->
+	<li>
+		<a href="cate.html" class="corner">
+		<span class="icon" style="padding:auto 3px;">NO.5</span>
+		<div class="cat_list_right">
+		<small>時間やカテゴリやナンバーなど、補足</small>
+		<h3>カテゴリー名（詳細）</h3>
+		</div>
+		</a>
+	</li>
+	<!-- /カテゴリ繰り返しここまで -->
+
+
+</ul>
+</section>
+<!-- /カテゴリリストここまで -->
+
+
+<!-- 広告ここから -->
+<section>
+	<a href="URLを入れてください。" class="ad corner">
+	<!-- 画像 -->
+	<!--
+		<img src="img/dummy_banner.gif" alt="スマートフォン用広告バナー">
+	-->
+
+	<!-- テキスト -->
+	<span class="corner">
+	テキスト広告や文章などが入ります。<br>
+	角丸にしたい場合は「a」タグのクラス「ad」の後ろにスペースを明けて
+	「corner」を追加してください。
+	テキストの際は「span」にも追加してください。
+	</span>
+
+	</a>
+</section>
+<!-- /広告ここまで -->
+
+
+<!-- フッタここから -->
+<footer>
+
+	<!-- インデックス・戻るここから -->
+	<div class="jump">
+	<a href="index.html" class="goindex"><span>TOP</span></a>
+	<a href="javascript:history.back();" class="back"><span>&lt; Back</span></a>
+	</div>
+	<!-- /インデックス・戻るここまで -->
+	
+	<!-- メニューここから -->
+	<div class="foot_nav"> 
+		<ul>
+			<li><a href="cate.html">カテゴリ</a></li>
+			<li><a href="cate.html">カテゴリ</a></li>
+			<li><a href="cate.html">カテゴリ</a></li>
+		</ul>
+		<ul>
+			<li><a href="about.html">About</a></li>
+			<li><a href="mailto:メールアドレス">Contact</a></li>
+			<li><a href="free.html">FREE</a></li>
+		</ul>
+	</div>
+	<!-- /メニューここまで -->
+
+	<!-- コピーライトここから -->
+	<div id="copy">
+	Copyright© <a href="あなたのサイトURL">サイト名</a>, All rights reserved.<br>
+	<!-- ***削除禁止*** -->
+	Designed by <a href="http://www.bannerbridge.net/">バナーブリッジ</a>
+	<!-- ***削除禁止*** -->
+	</div>
+	<!-- /コピーライトここまで -->
+
+</footer>
+<!-- /フッタここまで -->
+
+</body>
+</html>

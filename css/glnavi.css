@@ -1,15 +1,15 @@
-ul {
+.glonavi ul {
     width: 1000px;
     overflow: hidden;
 }
- 
-li {
+
+.glonavi li {
     float: left;
     width: 200px;
     list-style-type: none;
 }
- 
-a {
+
+.glonavi a {
     display: block;
     padding: 20px 0;
     text-align: center;
@@ -18,7 +18,7 @@ a {
     background-color: #f57;
     color: #fff;
 }
- 
+
 a:hover {
     background-color: #f7a;
 }
