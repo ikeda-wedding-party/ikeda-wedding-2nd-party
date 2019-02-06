@@ -12,6 +12,9 @@ body{
 
 .image{
     border: 0;
+    width: 970px;
+    height: auto;
+    object-fit: cover;
     background-color: white;  /* カラーフィルタ効果の色を指定 */
     display: inline-block;    /* (任意：インラインブロック化したい場合) */
 }
