@@ -7,6 +7,7 @@ body{
     padding: 0;
     background:#7494c0;
     color:black;
+    font-family: "游ゴシック体", YuGothic, "YuGothic M", sans-serif;
 }
 
 /*	サイト名やタイトル
@@ -32,7 +33,7 @@ body{
 /* タイトル部分 */
 .line__container .line__title {
   background: #273246;
-  padding: 10px;
+  padding: 30px;
   text-align: center;
   font-size: 150%;
   color: #ffffff;
@@ -50,7 +51,7 @@ body{
 
 /* 会話部分 */
 .line__container .line__contents {
-  padding: 10px;
+  padding: 24px;
   overflow: hidden;
   /*line-height: 150%;*/
 }
@@ -73,7 +74,7 @@ body{
     margin-bottom: 30px;
     max-width: 65%;
     clear: both;
-    font-size: 36px
+    font-size: 40px
 }
 
 /* アイコン画像 */
