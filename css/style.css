@@ -117,7 +117,7 @@ nav li.active{
 }
 
 nav li a{
-	padding:.8em 0;
+	padding:.2em .1em;
 	display:block;
 	/*border-right:solid 1px #CFB9B9;*/
 	/*border-left:solid 1px #FFF;*/
