@@ -132,36 +132,37 @@ nav li.active a{
 	color:#FFA49B;
 	text-shadow:-1px -1px 1px #CC837C,1px 1px 1px #FFF;
 }
+
 .button {
-   border-top: 1px solid #0a68a3;
-   background: #2082c4;
-   background: -webkit-gradient(linear, left top, left bottom, from(#c0d0db), to(#2082c4));
-   background: -webkit-linear-gradient(top, #c0d0db, #2082c4);
-   background: -moz-linear-gradient(top, #c0d0db, #2082c4);
-   background: -ms-linear-gradient(top, #c0d0db, #2082c4);
-   background: -o-linear-gradient(top, #c0d0db, #2082c4);
-   padding: 6px 12px;
-   -webkit-border-radius: 13px;
-   -moz-border-radius: 13px;
-   border-radius: 13px;
+   border-top: 1px solid #090cb3;
+   background: #112dde;
+   background: -webkit-gradient(linear, left top, left bottom, from(#99a1d4), to(#112dde));
+   background: -webkit-linear-gradient(top, #99a1d4, #112dde);
+   background: -moz-linear-gradient(top, #99a1d4, #112dde);
+   background: -ms-linear-gradient(top, #99a1d4, #112dde);
+   background: -o-linear-gradient(top, #99a1d4, #112dde);
+   padding: 5.5px 11px;
+   -webkit-border-radius: 12px;
+   -moz-border-radius: 12px;
+   border-radius: 12px;
    -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
    -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
    box-shadow: rgba(0,0,0,1) 0 1px 0;
    text-shadow: rgba(0,0,0,.4) 0 1px 0;
-   color: #ffffff;
+   color: white;
    font-size: 14px;
    font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif;
    text-decoration: none;
    vertical-align: middle;
    }
 .button:hover {
-   border-top-color: #307bad;
-   background: #307bad;
-   color: #9fb8cc;
+   border-top-color: #05079c;
+   background: #05079c;
+   color: #b8b6b8;
    }
 .button:active {
-   border-top-color: #1d3545;
-   background: #1d3545;
+   border-top-color: #1b435e;
+   background: #1b435e;
    }
 
 /*	セクションボーダー
