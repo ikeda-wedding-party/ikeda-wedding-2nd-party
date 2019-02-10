@@ -31,12 +31,12 @@ li{list-style:none;}
 ----------------------------------------*/
 body{
 	/*background:url(../img/bg.jpg) #FFF;*/
-	color:#B0B777;
+	color:#2a4abd;
 }
 
 /* リンク色変更はここ */
 a{
-	color:#FFA49B;
+	color:#52a9a2;
 	text-decoration:none;
 }
 
@@ -231,7 +231,7 @@ footer a{
 
 .goindex,
 .back{
-	background:#B0B777;
+	background:#2a4abdc4;
 	color:#FFF;
 	position:relative;
 	float:right;
@@ -258,7 +258,7 @@ footer a{
 /*	フッタメニュー
 --------------------*/
 .foot_nav{
-	background:#B0B777;
+	background:#2a4abdc4;
 	padding:.8em .5em .5em;
 	overflow:hidden;
 	clear:both;
