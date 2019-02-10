@@ -125,7 +125,7 @@ nav li a{
 	/*border-left:solid 1px #FFF;*/
 	/*border-bottom:solid 1px #FFF;*/
 	color:#5b5bd4;
-	font-weight:bold;
+	/*font-weight:bold;*/
 	text-shadow:-1px 0px 8px #a0afdc, 4px 4px 1px #a7a7ab;
 }
 nav li.active a{
