@@ -134,14 +134,14 @@ nav li.active a{
 }
 
 .button {
-   border-top: 1px solid #6664db;
-   background: #2a49bd;
-   background: -webkit-gradient(linear, left top, left bottom, from(#dddff0), to(#2a49bd));
-   background: -webkit-linear-gradient(top, #dddff0, #2a49bd);
-   background: -moz-linear-gradient(top, #dddff0, #2a49bd);
-   background: -ms-linear-gradient(top, #dddff0, #2a49bd);
-   background: -o-linear-gradient(top, #dddff0, #2a49bd);
-   padding: 5.5px 11px;
+   border-top: 1px solid #ffffff;
+   background: #768ef7;
+   background: -webkit-gradient(linear, left top, left bottom, from(#e4e6ed), to(#768ef7));
+   background: -webkit-linear-gradient(top, #e4e6ed, #768ef7);
+   background: -moz-linear-gradient(top, #e4e6ed, #768ef7);
+   background: -ms-linear-gradient(top, #e4e6ed, #768ef7);
+   background: -o-linear-gradient(top, #e4e6ed, #768ef7);
+   padding: 4px 8px;
    -webkit-border-radius: 4px;
    -moz-border-radius: 4px;
    border-radius: 4px;
@@ -149,15 +149,15 @@ nav li.active a{
    -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
    box-shadow: rgba(0,0,0,1) 0 1px 0;
    text-shadow: rgba(0,0,0,.4) 0 1px 0;
-   color: #fcfcfc;
-   font-size: 13px;
+   color: #102b70;
+   font-size: 15px;
    font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif;
    text-decoration: none;
    vertical-align: middle;
    }
 .button:hover {
-   border-top-color: #181aa1;
-   background: #181aa1;
+   border-top-color: #8689ba;
+   background: #8689ba;
    color: #bdbdbd;
    }
 .button:active {
@@ -587,3 +587,4 @@ p.free_eyecatch{
 	text-align:center;
 	text-shadow:1px 1px 0 #8F9851,-1px -1px 0 #FFFFFF;
 }
+
