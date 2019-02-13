@@ -9,6 +9,19 @@
 <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
 <script type="text/javascript" src="js/jquery.biggerlink.js"></script>
 <script type="text/javascript"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+<script type="text/javascript">
+        $(document).ready(function(){
+            $('.slider').bxSlider({
+                auto: true,
+                pause: 5000,
+                speed: 1000
+            });
+        });
+</script>
 </head>
 <body>
 
@@ -18,7 +31,12 @@
 </div>
 
 <div class="top_img">
-<img src="img/ikeda_family.png">
+  <div class="slider" style="margin-bottom: 40px">
+    <img src="img/ikeda_family.png" width="100%" height="auto" alt="">
+    <img src="img/ikeda_family.png" width="100%" height="auto" alt="">
+    <img src="img/ikeda_family.png" width="100%" height="auto" alt="">
+    <img src="img/ikeda_family.png" width="100%" height="auto" alt="">
+  </div>
 </div>
 <!-- /TOP画像ここまで -->
 
