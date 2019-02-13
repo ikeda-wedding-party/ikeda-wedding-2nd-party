@@ -30,7 +30,7 @@ li{list-style:none;}
 	全ページ共有ここから
 ----------------------------------------*/
 body{
-	/*background:url(../img/bg.jpg) #FFF;*/
+    background: #f1f0fb96;
 	color:#2a4abd;
 }
 
@@ -303,8 +303,9 @@ footer a{
 .top_img{
 /*	padding:10px 0;*/
 	overflow:hidden;
-	border-top:solid 1px #FFF;
+	/*border-top:solid 1px #FFF;*/
 	/*border-bottom:solid 1px #E6D9D9;*/
+        margin: -2.5px 0;
 }
 
 .top_img img{
@@ -588,3 +589,11 @@ p.free_eyecatch{
 	text-shadow:1px 1px 0 #8F9851,-1px -1px 0 #FFFFFF;
 }
 
+hr.style-two {
+    border: 0;
+    height: 2px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+}

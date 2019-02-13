@@ -1,0 +1,60 @@
+@import url(https://fonts.googleapis.com/css?family=Arvo:700);
+@import url(https://fonts.googleapis.com/css?family=Seaweed+Script);
+body {
+  background-color: rgba(255, 255, 255, 0.94);
+}
+.plate {
+  width: auto;
+  margin: 3% auto;
+}
+.shadow {
+  color: rgba(255, 255, 255, 0.94);
+  font-family: Arvo;
+  font-weight: bold;
+  text-shadow:
+      -3px -3px 0 #2e22e0ad,
+      3px -3px 0 #2e22e0ad,
+      -3px 3px 0 #2e22e0ad,
+      3px 3px 0 #2e22e0ad,
+      4px 4px 0 #b5b6b9,
+      5px 5px 0 #b5b6b9,
+      6px 6px 0 #b5b6b9,
+      7px 7px 0 #b5b6b9;
+  line-height: 0.8em;
+  letter-spacing: 0.1em;
+  transform: scaleY(0.7);
+  -webkit-transform: scaleY(0.7);
+  -moz-transform: scaleY(0.7);
+  margin:0;
+  text-align: center;
+}
+.script {
+  font-family: "Seaweed Script";
+  color: #fff;
+  text-align: center;
+  font-size: 40px;
+  position: relative;
+  margin:0;
+}
+.script span {
+  background-color: #222;
+  padding: 0 0.3em;
+}
+.script:before {
+  content:"";
+  display: block;
+  position: absolute;
+  z-index:-1;
+  top: 50%;
+  width: 100%;
+  border-bottom: 3px solid #fff;
+}
+.text1 {
+  font-size: 45px;
+}
+.text2 {
+  font-size: 169px;
+}
+.text3 {
+  font-size: 100px;
+}
