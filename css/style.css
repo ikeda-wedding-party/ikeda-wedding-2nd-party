@@ -31,8 +31,9 @@ li{list-style:none;}
 ----------------------------------------*/
 body{
 
-    background: #f1f0fb96;
-	color:#2a4abd;
+    /*background: #f1f0fb96;*/
+    background-image: url("../img/bg.jpg");
+    color:#2a4abd;
 }
 
 /* リンク色変更はここ */
@@ -310,7 +311,7 @@ footer a{
 }
 
 .top_img img{
-	max-width:376px;
+	max-width:100%;
 	height:auto;
 	/*border:solid 1px #E0E4B4;*/
 }
