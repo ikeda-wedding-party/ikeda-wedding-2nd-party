@@ -614,3 +614,9 @@ hr.style-two {
   /*vertical-align: text-top;*/
   fill: currentColor;
 }
+
+.octicons_text {
+  display: inline-block;
+  vertical-align: text-top;
+  fill: currentColor;
+
