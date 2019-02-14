@@ -1,0 +1,96 @@
+/* ¥Á¥ã¥Ã¥È¥ì¥¤¥¢¥¦¥È */
+.chat-box {
+    width: 100%;
+    height: auto;
+    overflow: hidden; /*float¤Î²ò½ü*/
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 3%;
+}
+.chat-face {
+    float: left;
+    margin-right: -100%;
+}
+.chat-face-someone {
+    float: right;
+    margin-right: 6%;
+}
+.chat-face img{
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 4px #ddd;
+}
+.chat-face-someone img{
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 4px #ddd;
+}
+.chat-area {
+    width: 100%;
+    float: right;
+}
+.chat-area-someone {
+    width: 100%;
+    /*float: right;*/
+}
+
+.chat-hukidashi {
+    display: inline-block;
+    padding: 2%;
+    margin-left: 23%;
+    margin-top: 5%;
+    margin-right: 6%;
+    border-radius: 10px;
+    position: relative;
+    background-color: #d9fff55c;
+}
+.chat-hukidashi-someone {
+    /*display: inline-block;*/
+    padding: 2%;
+    /*margin-left: 45%;*/
+    margin-top: 5%;
+    margin-right: 30%;
+    border-radius: 10px;
+    position: relative;
+    background-color: #fff9d9cf;
+}
+
+.chat-font {
+    font-family: 'Lato', 'Noto Sans JP', 'Þâ¥´¥·¥Ã¥¯ Medium', 'Þâ¥´¥·¥Ã¥¯ÂÎ', 'Yu Gothic Medium', YuGothic, '¥Ò¥é¥®¥Î³Ñ¥´ ProN', 'Hiragino Kaku Gothic ProN', '¥á¥¤¥ê¥ª', Meiryo, '£Í£Ó £Ð¥´¥·¥Ã¥¯', 'MS PGothic', sans-serif;
+    font-size: 14px;
+    color: black;
+}
+
+/* ¢­ÄÉµ­¢­ */
+.chat-hukidashi:after {
+    content: "";
+    position: absolute;
+    top: 50%; left: -10px;
+    margin-top: -10px;
+    display: block;
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #d9fff55c transparent transparent;
+}
+.chat-hukidashi-someone:after {
+    content: "";
+    position: absolute;
+    top: 30%;
+    left: 100%;
+    margin-top: 0%;
+    display: block;
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 10px 10px 10px;
+    border-color: transparent transparent transparent #fff9d9cf;
+}
+.someone {
+    background-color: #BCF5A9;
+}
+.someone:after {
+    border-color: transparent #BCF5A9 transparent transparent;
+}
+/* ¢¬ÄÉµ­¢¬ */
