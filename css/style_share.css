@@ -31,14 +31,6 @@ hr{
 
 /*ベース
 /************************************************************/
-body {
-	width:100%;
-	font-family: "Lato", "游ゴシック体", "Yu Gothic", "YuGothic", "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo, Osaka", "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
-	font-size: 14px;
-	font-weight:500;
-	color:#191919;
-	padding:0 20px 60px 20px;
-}
 button, input, select, textarea{
 	font-family:inherit;
 	font-weight:inherit;
@@ -69,35 +61,35 @@ h2{
 
 /*ソーシャルリストデザイン0*/
 .shareList {
-	list-style:none;
-	display: flex;
-    justify-content: flex-end;
-	flex-wrap:wrap;
-	width:100%;
-	margin:0;
-	padding:0;
+    list-style:none;
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    width:100%;
+    margin:0;
+    padding:0;
 }
 .shareList__item {
-    flex-grow: 1;
-	height:50px;
-	line-height:50px;
-	min-width:100px;
-	text-align:center;
+    flex-grow: 0.3;
+    height:50%;
+    line-height:500%;
+    min-width:10%;
+    text-align:center;
 }
 .shareList__link {
-	display:block;
-	color:#ffffff;
-	text-decoration: none;
+    display:block;
+    color:#ffffff;
+    text-decoration: none;
 }
 .shareList__link::before{
-	font-size:20px;
-	display:block;
-	transition: ease-in-out .2s;
+    font-size:20px;
+    display:block;
+    transition: ease-in-out .2s;
 }
 .shareList__link:hover::before{
-	background:#ffffff;
-	transform: scale(1.2);
-	box-shadow:1px 1px 4px 0px rgba(0,0,0,0.15);
+    background:#ffffff;
+    transform: scale(1.2);
+    box-shadow:1px 1px 4px 0px rgba(0,0,0,0.15);
 }
 
 .shareList__link.icon-twitter{background:#55acee;}

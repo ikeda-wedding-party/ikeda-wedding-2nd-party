@@ -31,7 +31,6 @@ li{list-style:none;}
 ----------------------------------------*/
 
 /* share */
-/*
 .shareList {
 	list-style:none;
 	display: flex;
@@ -86,7 +85,6 @@ li{list-style:none;}
 	transform: translateY(4px);
 	border-bottom: none;
 }
-*/
 /* ---- */
 
 body{
