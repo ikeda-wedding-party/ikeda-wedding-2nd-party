@@ -1,4 +1,4 @@
-@import url(sanitize.css);
+
 @import url('https://fonts.googleapis.com/css?family=Libre+Barcode+128+Text|Sriracha');
 
 body{
@@ -41,7 +41,7 @@ height: auto;
 }
 
 .information h1{
-    font-size: 14px;
+    font-size: 13px;
     margin: 0 10px 10px 0;
     float: left;
     font-family: 'Sriracha', cursive;
